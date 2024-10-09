@@ -12,7 +12,7 @@ def get_limited_input(prompt, min_length, max_length):
             print(f"A entrada deve ter entre {min_length} e {max_length} caracteres. Tente novamente.")
 
 # Usar a função para obter uma senha com limite
-chave = int(get_limited_input("Digite a chave de cominicação: ", 1, 6))
+chave = int(get_limited_input("Digite a chave de comunicação: ", 1, 6))
 
 # NUMERO DE 4 DIGITOS
 federalDeputy = [
